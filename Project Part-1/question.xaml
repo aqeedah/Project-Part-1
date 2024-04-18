@@ -14,7 +14,7 @@
         <RadioButton x:Name="op1" Content="A)  Encapsulation&#xA;" HorizontalAlignment="Left" Height="34" Margin="145,159,0,0" VerticalAlignment="Top" Width="259" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
         <RadioButton x:Name="op2" Content="B) Procedural programming" HorizontalAlignment="Left" Height="33" Margin="145,217,0,0" VerticalAlignment="Top" Width="276" FontSize="18" FontWeight="Bold" FontStyle="Italic" Checked="RadioButton_Checked"/>
         <RadioButton x:Name="op3" Content="C) Functional programming" HorizontalAlignment="Left" Height="34" Margin="145,274,0,0" VerticalAlignment="Top" Width="259" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
-        <Button x:Name="next" Content="NEXT" HorizontalAlignment="Left" Height="41" Margin="344,409,0,0" VerticalAlignment="Top" Width="182" BorderBrush="#FF482454" BorderThickness="3,3,3,3" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="{x:Null}"/>
+        <Button x:Name="next" Content="NEXT" HorizontalAlignment="Left" Height="41" Margin="344,409,0,0" VerticalAlignment="Top" Width="182" BorderBrush="#FF482454" BorderThickness="3,3,3,3" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="{x:Null}" Click="next_Click"/>
         <RadioButton x:Name="op4" Content="D) Imperative programming" HorizontalAlignment="Left" Height="38" Margin="145,329,0,0" VerticalAlignment="Top" Width="259" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
 
     </Grid>

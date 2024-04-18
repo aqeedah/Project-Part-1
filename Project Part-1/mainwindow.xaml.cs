@@ -31,5 +31,11 @@ namespace Project_Part_1
             Student_Login login_form = new Student_Login();
             login_form.Show();
         }
+
+        private void strt_quiz_Click(object sender, RoutedEventArgs e)
+        {
+            question start_quiz = new question();
+            start_quiz.Show();
+        }
     }
 }
